@@ -1,5 +1,7 @@
-// import logo from './logo.svg';
-import profileImage from './img/myphoto.jpg';
+import React from 'react';
+import logo from './logo.svg';
+// import profileImage from './img/myphoto.jpg';
+import Home from './components/Home';
 import './App.css';
 
 function App() {
@@ -19,9 +21,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <h1>hi friends</h1>
-      <h2>Author : shyam kumar</h2>
-      <img src={profileImage} alt="profie-image" />
+      <Home />
+
     </div>
   );
 }
